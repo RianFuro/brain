@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Programming/Elixir/Phoenix/Live Views.md",
+            "file": "README.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Elixir/Phoenix/Live Views.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,10 +88,11 @@
   },
   "active": "5db96bc71a9587b8",
   "lastOpenFiles": [
+    "README.md",
     "Programming/Elixir/Phoenix/Live Views.md",
+    "Programming/Elixir/Phoenix/Adding Tailwind CSS.md",
     "Programming/Elixir/Phoenix/Default rendering pipeline.md",
     "Blog/entries/eloquent-is-not-your-domain-model.md",
-    "Programming/Elixir/Phoenix/Adding Tailwind CSS.md",
     "Blog/Blog Ideas.md"
   ]
 }

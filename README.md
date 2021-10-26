@@ -1,0 +1,3 @@
+If you found this, welcome! These are my personal notes, assembled in an [obsidian workspace](https://obsidian.md/). You should be able to view them just fine here on github, but obsidian defines a few extensions to the markdown language, so for best viewing experience the native obsidian client is recommended.
+
+If you found something hard to understand or even plain wrong, I'd appreciate if you'd let me know via an issue. Improving the notes helps future viewers out a lot - and one of those future viewers is going to be myself!
