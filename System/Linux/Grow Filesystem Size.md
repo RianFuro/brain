@@ -5,7 +5,7 @@
 
 # Increase logical disk size
 
-As far as I can tell, that's done by deleting the partition in question and then recreating it with more space. That was too scary for me though (#TODO: test that), so I used growpart instead.
+As far as I can tell, that's done by deleting the partition in question and then recreating it with more space. That was too scary for me though ( #TODO: test that), so I used growpart instead.
 
 On CentOS, this can be installed by:
 ```bash
