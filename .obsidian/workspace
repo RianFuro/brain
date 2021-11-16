@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -100,11 +99,13 @@
   "active": "5db96bc71a9587b8",
   "lastOpenFiles": [
     "System/Linux/Grow Filesystem Size.md",
+    "README.md",
+    "Music Collection TODO.md",
+    "Programming/Vimscript/Get Vim height and width.md",
+    "Programming/Vue/Assure Route Component is re-mounted when the path changes.md",
     "Programming/Elixir/Phoenix/Live Views.md",
     "Programming/Elixir/Phoenix/Default rendering pipeline.md",
     "Programming/Elixir/Phoenix/Adding Tailwind CSS.md",
-    "Music Collection TODO.md",
-    "README.md",
     "Blog/entries/eloquent-is-not-your-domain-model.md",
     "Blog/Blog Ideas.md"
   ]
