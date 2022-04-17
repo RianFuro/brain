@@ -60,15 +60,15 @@ To let tailwind take care of compilation, we need to hook it into phoenix's boot
 - For automatic recompilation on changes, we need to add a watcher in `config/dev.exs`:
   ```diff
    watchers: [
-     # Start the esbuild watcher by calling Esbuild.install_and_run(:default, args) 
+     # Start the esbuild watcher by calling Esbuild.install_and_run(:default, args)
      esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]},
-  +  npx: [  
-  +    "tailwindcss",  
-  +    "--input=css/app.css",  
-  +    "--output=../priv/static/assets/app.css",  
-  +    "--postcss",  
-  +    "--watch",  
-  +    cd: Path.expand("../assets", __DIR__)  
+  +  npx: [
+  +    "tailwindcss",
+  +    "--input=css/app.css",
+  +    "--output=../priv/static/assets/app.css",
+  +    "--postcss",
+  +    "--watch",
+  +    cd: Path.expand("../assets", __DIR__)
   +  ]
    ]
   ```
@@ -82,8 +82,8 @@ To let tailwind take care of compilation, we need to hook it into phoenix's boot
   
 Lastly, we can remove the css import in `app.js`. Since tailwind is now taking care of bundling, we don't need to manually import it to be taken up by the build pipeline.
 ```diff
--// We import the CSS which is extracted to its own file by esbuild.  
--// Remove this line if you add a your own CSS build pipeline (e.g postcss).  
+-// We import the CSS which is extracted to its own file by esbuild.
+-// Remove this line if you add a your own CSS build pipeline (e.g postcss).
 -import "../css/app.css"
 ```
 

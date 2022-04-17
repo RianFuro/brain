@@ -26,15 +26,15 @@ Phoenix's template engine doesn't rely on explicitly extending from base layouts
   ```
   The default behavor can be disabled by setting `put_default_views` to `false` when using the module in the controller bootstrapping function in your main `ABC_web.ex#controller`:
   ```diff
-   def controller do  
-     quote do  
-       use Phoenix.Controller, 
+   def controller do
+     quote do
+       use Phoenix.Controller,
          namespace: HomeWeb,
   +      put_default_views: false
-       import Plug.Conn  
-       import HomeWeb.Gettext  
-       alias HomeWeb.Router.Helpers, as: Routes  
-     end  
+       import Plug.Conn
+       import HomeWeb.Gettext
+       alias HomeWeb.Router.Helpers, as: Routes
+     end
    end
   ```
   However, this also disables the default view selection, so the `render` function won't have a view to use for rendering unless you specifically set one.
