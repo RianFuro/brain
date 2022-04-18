@@ -1,7 +1,7 @@
 Static file hosting is handily accomplished by putting the files into an S3 bucket, then pointing a CloudFront endpoint to it. CloudFront will then take care of all the nasty details of hosting a webserver for you, like providing a CDN and handling throttling.
 
 This is a minimal CloudFormation template to get startet:
-```json
+```yaml
 AppBucket:  
   Type: AWS::S3::Bucket  
   DeletionPolicy: Retain  
